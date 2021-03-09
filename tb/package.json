@@ -22,11 +22,14 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
+    "@nuxtjs/style-resources": "^1.0.0",
     "@storybook/addon-actions": "^6.1.18",
     "@storybook/addon-essentials": "^6.1.18",
     "@storybook/addon-links": "^6.1.18",
     "@storybook/vue": "^6.1.18",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2"
   },
   "lint-staged": {
     "*.{js,ts,vue,json}": "prettier -c",
