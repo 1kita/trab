@@ -1,20 +1,14 @@
 <template>
   <div id="home">
-    <sample-header></sample-header>
-    <sample-main-visual></sample-main-visual>
-    <div class="container p-5">
-        <sample-card-group></sample-card-group>
-    </div>
+    <base-button buttonColor="primary"></base-button>
   </div>
 </template>
 
 <script>
-import SampleHeader from '@/components/SampleHeader'
-import SampleMainVisual from '@/components/SampleMainVisual'
-import SampleCardGroup from '@/components/SampleCardGroup'
+import BaseButton from '@/components/BaseButton'
 
 export default {
-  components: { SampleHeader, SampleMainVisual, SampleCardGroup }
+  components: { BaseButton  }
 }
 </script>
 
